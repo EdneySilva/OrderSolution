@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Queues" Version="12.6.1" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="3.1.15" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OrderSolution.Core\OrderSolution.Core.csproj" />
+  </ItemGroup>
+
+</Project>
